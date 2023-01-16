@@ -1,0 +1,68 @@
+body{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+
+form{
+    display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: 1fr 1fr 1fr;
+}
+.firstname, .lastname , .email, .phno, .passwrd, .cnfpasswrd{
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    margin: 25px;
+    color: black;
+}
+input:invalid{
+    border: 2px solid red;
+}
+button{
+    width: 200px;
+    height: 45px;
+    background-color:rgb(3, 135, 3);
+    border-radius: 8px;
+    color: white;
+    margin: 15px;
+   
+
+}
+.right{
+    display: grid;
+    grid-template-rows: 1fr 1.5fr 1fr;
+    
+}
+.left{
+    background-image:url(download.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.foorm, .toptext, .bottom {
+    padding: 30px;
+}
+h3{
+    display: inline;
+    margin-top: 25px;
+}
+.toptext{
+   display: flex;
+   flex-direction: column;
+}
+.logo{
+    background-color: rgb(6, 7, 7) ;
+    height: 150px;
+    opacity: 70%;
+    margin-top: 200px;
+    background-image: url(download.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}.toptext, .bottom{
+    background-color: rgb(189, 202, 215);
+    
+}
